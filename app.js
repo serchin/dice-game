@@ -94,7 +94,7 @@ document.querySelector('.btn-hold').addEventListener('click',
         //Дэлгэц дээр оноог нь өөрчилнө.
         //Уг тоглогч хожсон эсэхийг шалгах
         // Ялагч гэсэн үг гаргана.
-        if(scores[activePlayer]>=10) {
+        if(scores[activePlayer]>=100) {
             // Тоглоомыг дууссан төлөвд оруулна
             isNewGame=false;
 
